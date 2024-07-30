@@ -13,8 +13,8 @@ const Home = () => {
           <h1 className="text-4xl md:text-5xl font-bold">Hola, Soy Jose Luis Guzman</h1>
           <p className="text-lg font-medium text-[#B7B7B7]">
             Full Stack Developer <br />
-            www.joseluisguzman.com
           </p>
+          <a className="text-lg font-medium text-[#B7B7B7] hover:text-white" target="_blank" href="https://www.joseluisguzman.com">www.joseluisguzman.com</a>
         </div>
       </div>
     </>
