@@ -11,7 +11,7 @@ const Error = () => {
           </div>
           <div className="flex flex-col text-center gap-4">
             <h1 className="text-4xl md:text-5xl font-bold">Hola, Soy Jose Luis Guzman</h1>
-            <p className="text-lg font-medium md:text-left text-[#828282]">
+            <p className="text-lg font-medium md:text-left text-[#B7B7B7]">
               Esta pagina no existe <br />
               Vuelve al Home :D
             </p>
