@@ -5,12 +5,15 @@ interface Datos {
   link: string;
 }
 
-const ListComponent = ({name, link}:Datos) => {
+const ListComponent = ({ name, link }: Datos) => {
   return (
     <>
-      <div className="flex items-center p-4 h-auto w-full border-white border ">
-        <Link to={link}>{name}</Link>
-      </div>
+      <Link
+        className="flex justify-center items-center p-4 h-auto w-full md:w-[500px] border-white border hover:font-bold"
+        to={link}
+      >
+        {name}
+      </Link>
     </>
   );
 };

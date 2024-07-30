@@ -5,6 +5,7 @@ import Documentation from "./pages/Documentation";
 import Components from "./pages/Components";
 import Header from "./Components/Header";
 import DetailComponent from "./Components/DetailComponent";
+import Error from "./pages/Error";
 
 function App() {
   return (
@@ -15,9 +16,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Documentation" element={<Documentation />} />
           <Route path="/Components" element={<Components />} />
-          <Route path="/Components/1" element={<DetailComponent titulo={"Componente 1"}/>}/>
-          <Route path="/Components/2" element={<DetailComponent titulo={"Componente 2"}/>}/>
-          <Route path="/Components/3" element={<DetailComponent titulo={"Componente 3"}/>}/>
+          <Route path="/Components/:id" element={<DetailComponent />} />
+          <Route path="*" element={<Error/>} />
         </Routes>
       </BrowserRouter>
     </>

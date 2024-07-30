@@ -1,0 +1,33 @@
+{
+    "1": {
+      "title": "Esto es un Carrousel",
+      "description": "Una descripción detallada sobre el Carrousel.",
+      "code": "<p>Hola Mundo</>"
+    },
+    "2": {
+      "title": "Componente 2",
+      "description": "Descripción del Componente 2.",
+      "code": "Código del Componente 2 aquí"
+    },
+    "3": {
+      "title": "Componente 3",
+      "description": "Descripción del Componente 3.",
+      "code": "Código del Componente 3 aquí"
+    },
+    "4": {
+      "title": "Componente 4",
+      "description": "Descripción del Componente 4.",
+      "code": "Código del Componente 4 aquí"
+    },
+    "5": {
+      "title": "Componente 5",
+      "description": "Descripción del Componente 5.",
+      "code": "Código del Componente 5 aquí"
+    },
+    "6": {
+      "title": "Componente 6",
+      "description": "Descripción del Componente 6.",
+      "code": "Código del Componente 6 aquí"
+    }
+  }
+  
