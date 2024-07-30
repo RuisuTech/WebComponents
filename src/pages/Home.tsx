@@ -11,7 +11,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col text-center gap-4">
           <h1 className="text-4xl md:text-5xl font-bold">Hola, Soy Jose Luis Guzman</h1>
-          <p className="text-lg font-medium md:text-left text-[#B7B7B7]">
+          <p className="text-lg font-medium text-[#B7B7B7]">
             Full Stack Developer <br />
             JoseLuisOsorioGuzman11@gmail.com
           </p>
